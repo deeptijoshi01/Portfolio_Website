@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 400; /* default normal */
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Accent helpers */
+.text-accent {
+  color: #2acccc;
+}
+
+.bg-accent {
+  background-color: #2acccc;
+}
+
+.border-accent {
+  border-color: #2acccc;
+}
